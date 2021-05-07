@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".StarGoodsActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/dirty_white"
+        android:elevation="25dp">
+        <ImageView
+            android:id="@+id/star_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/star_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star Name"
+            android:textSize="23dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowColor="#000000"
+            android:shadowRadius="1.5" />
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/goods_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dirty_white"
+        app:itemBackground="@color/dirty_white"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/goods_category"
+        app:itemTextColor="@color/bottomselector"
+        android:paddingBottom="13dp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/goods_viewpager"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

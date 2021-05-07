@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_mall"
+        android:icon="@drawable/house"
+        android:enabled="true"
+        android:title="굿즈몰"/>
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/diary"
+        android:enabled="true"
+        android:title="커뮤니티"/>
+
+    <item
+        android:id="@+id/menu_add"
+        android:enabled="false"
+        android:title="굿즈팔기"/>
+
+    <item
+        android:id="@+id/menu_message"
+        android:icon="@drawable/chat_baloon"
+        android:enabled="true"
+        android:title="메세지" />
+    <item
+        android:id="@+id/menu_mypage"
+        android:icon="@drawable/human"
+        android:enabled="true"
+        android:title="MY"/>
+</menu>

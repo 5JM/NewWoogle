@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Woogle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goods_idol_select">굿즈 아이돌을 선택해주세요. 리스트에 없는 아이돌은 추가하기 버튼을 눌러 추가해주세요.</string>
+    <array name="idols">
+        <item>Twice</item>
+        <item>BTS</item>
+        <item>GOT7</item>
+        <item>Girlfriend</item>
+        <item>10cm</item>
+    </array>
+
+    <array name="category">
+        <item>의류&amp;백</item>
+        <item>피규어</item>
+        <item>문구&amp;소품</item>
+        <item>컵</item>
+        <item>티켓</item>
+        <item>음반</item>
+        <item>핸드메이드</item>
+        <item>기타</item>
+        <item>카테고리</item>
+    </array>
+</resources>

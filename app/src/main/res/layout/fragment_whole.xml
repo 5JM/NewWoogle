@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goodsCategory.WholeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="총 "
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/whole_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="null"
+            android:textColor="@color/red"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="건"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right">
+        <TextView
+            android:id="@+id/whole_order"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="최신순"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/whole_order_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/right_arrow"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/whole_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"/>
+
+</FrameLayout>

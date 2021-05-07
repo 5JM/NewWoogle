@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/content_img"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/content_category"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="categpry"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingVertical="3dp"
+        android:textColor="@color/white"
+        android:background="@drawable/red_round"/>
+
+    <TextView
+        android:id="@+id/content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#444444"
+        android:background="#F5F5F5"/>
+
+    <TextView
+        android:id="@+id/content_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10,000"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#F5F5F5"/>
+</LinearLayout>
